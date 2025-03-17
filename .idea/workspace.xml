@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8fd99f1-ebb5-45fe-8ba2-4e3d7c1823ca" name="Changes" comment="initial commit - Skeleton">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/core/GameStateListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/core/Options.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/client/comm/ClientNetworkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/comm/ClientNetworkManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/FeedbackPannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/FeedbackPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/GamePlayPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/GamePlayPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/GameUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/GameUIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/LobbyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/LobbyPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/LoginPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/LoginPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/MainGameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/MainGameFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/core/TexasHoldEm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/core/TexasHoldem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/server/comm/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/server/comm/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/server/comm/ServerNetworkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/server/comm/ServerNetworkManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "cali-kennedy"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cali-kennedy&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/cali-kennedy/52.git",
-    "accountId": "1edc3d32-d87f-4de6-8c8b-53d2ee7754ba"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cali-kennedy/52.git&quot;,
+    &quot;accountId&quot;: &quot;1edc3d32-d87f-4de6-8c8b-53d2ee7754ba&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -62,6 +50,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.MainTest.executor": "Run",
+    "Application.TestConfig.executor": "Run",
+    "Application.Unnamed.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -73,6 +63,15 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="main.java.javase.t52.core.cards" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestConfig" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main.java.javase.t52.MainTest" />
+      <module name="52_testver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

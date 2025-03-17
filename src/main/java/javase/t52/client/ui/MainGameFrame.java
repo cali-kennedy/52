@@ -92,7 +92,7 @@ public class MainGameFrame extends JFrame {
      */
     public void initUI(GameUIController controller) {
         // Example:
-        // loginPanel.setController(controller);
+         loginPanel.setController(controller);
         // lobbyPanel.setController(controller);
         // gamePlayPanel.setController(controller);
     }
