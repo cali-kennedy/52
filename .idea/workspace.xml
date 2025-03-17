@@ -4,32 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8fd99f1-ebb5-45fe-8ba2-4e3d7c1823ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/52_testver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/comm/ClientNetworkManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/FeedbackPannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/GamePlayPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/GameUIController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/LobbyPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/LoginPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/MainGameFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/core/GameLobby.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/core/GameRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/core/TexasHoldEm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/core/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/core/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/core/cards/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/core/cards/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/core/cards/Hand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/database/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/server/comm/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/server/comm/ServerNetworkManager.java" afterDir="false" />
+    <list default="true" id="d8fd99f1-ebb5-45fe-8ba2-4e3d7c1823ca" name="Changes" comment="initial commit - Skeleton">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/core/GameStateListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javase/t52/core/Options.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/client/comm/ClientNetworkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/comm/ClientNetworkManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/FeedbackPannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/FeedbackPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/GamePlayPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/GamePlayPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/GameUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/GameUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/LobbyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/LobbyPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/LoginPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/LoginPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/MainGameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/client/ui/MainGameFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/core/TexasHoldEm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/core/TexasHoldem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/server/comm/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/server/comm/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javase/t52/server/comm/ServerNetworkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javase/t52/server/comm/ServerNetworkManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,6 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "cali-kennedy"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/cali-kennedy/52.git",
+    "accountId": "1edc3d32-d87f-4de6-8c8b-53d2ee7754ba"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -55,14 +59,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/se_workspace/52_testver&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/se_workspace/52_testver"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="main.java.javase.t52.core.cards" />
@@ -77,6 +83,19 @@
       <option name="presentableId" value="Default" />
       <updated>1742178863409</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit - Skeleton">
+      <option name="closed" value="true" />
+      <created>1742180864584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742180864584</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit - Skeleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit - Skeleton" />
   </component>
 </project>
