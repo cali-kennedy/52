@@ -91,7 +91,7 @@ public class MainGameFrame extends JFrame {
      * @param controller the GameUIController instance.
      */
     public void initUI(GameUIController controller) {
-        // Example:
+
          loginPanel.setController(controller);
         // lobbyPanel.setController(controller);
         // gamePlayPanel.setController(controller);

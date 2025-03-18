@@ -2,6 +2,8 @@ package main.java.javase.t52.client.ui;
 
 import main.java.javase.t52.core.TexasHoldem;
 import main.java.javase.t52.core.GameStateListener;
+import main.java.javase.t52.core.User;
+import main.java.javase.t52.core.UserManager;
 
 /**
  * GameUIController serves as the Controller in the MVC architecture.
@@ -11,6 +13,7 @@ public class GameUIController implements GameStateListener {
 
     private TexasHoldem model;
     private MainGameFrame view;
+    private UserManager userManager;
 
     /**
      * Constructs a new GameUIController with the specified model and view.
@@ -24,6 +27,13 @@ public class GameUIController implements GameStateListener {
         this.view = view;
         // Register this controller to listen for game state changes.
         this.model.addGameStateListener(this);
+    }
+
+    /**
+     * Sets User Manager
+     */
+    public void initHandlers(UserManager userManager) {
+        this.userManager = userManager;
     }
 
     /**
@@ -55,6 +65,8 @@ public class GameUIController implements GameStateListener {
      */
     public void handleLogin(String username, String password) {
         System.out.println("Handling login for user: " + username);
+        User test_user = new User(username,password,0);
+        userManager.registerUser(test_user);
         // Assume login is successful; switch to the lobby view.
         showLobby();
     }
